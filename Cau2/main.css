@@ -17,7 +17,6 @@ body {
 }
 .nav_items {
     list-style:none;
-    flex-wrap: nowrap;
     margin: 0 20px;
     color: white;
     font-weight: bold;
@@ -59,15 +58,16 @@ p:hover{
     justify-content: space-evenly;
 
 }
-.products_items {
+.products__items {
     margin: 10px;
     padding: 20px;
     border: lightgrey 1px solid;
     transition: transform 0.3s ease;
     width: 380px ;
     border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
-.products_items:hover {
+.products__items:hover {
     transform: scale(1.1);
 }
 .laptop {
@@ -101,7 +101,7 @@ button:hover {
 h2 {
     font-size: 30px
 }
-.info_paragraph {
+.info__paragraph {
     display: flex;
     justify-content: space-evenly;
 }
@@ -117,6 +117,7 @@ h2 {
     cursor:default;
 }
 .footer {
+    flex-wrap: wrap;
     background-color: #f4f4f4;
     padding: 20px;
     display: flex;
@@ -148,5 +149,4 @@ a:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-
 
